@@ -1,0 +1,59 @@
+/* Fancy Navbar Styles */
+.fancy-navbar {
+  background-color: #ffdaa9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  width: 60px !important;
+  margin-left: 20px;
+  transition: transform 0.3s;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.1);
+}
+
+.fancy-link {
+  color: #343a40;
+  font-weight: 500;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.fancy-link:hover {
+  color: #b99463;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 5px;
+}
+
+.fancy-dropdown {
+  border-radius: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fancy-dropdown .dropdown-item {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.fancy-dropdown .dropdown-item:hover {
+  background-color: #b8b8b8;
+  color: #ffffff;
+}
+
+/* Additional Custom Styles */
+.navbar-toggler-icon {
+  transition: transform 0.3s;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  transform: rotate(90deg);
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #007bff;
+  font-weight: 700;
+}

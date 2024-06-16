@@ -1,0 +1,52 @@
+/* Custom Button Styles */
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #28a745;
+}
+
+.btn-danger:hover {
+  background-color: #dc3545;
+}
+
+.btn-primary:hover {
+  background-color: #007bff;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 500;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.row>[class*='col-'] {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+
+  .col-sm-5,
+  .col-sm-2,
+  .col-md-6 {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    margin-bottom: 0;
+  }
+}

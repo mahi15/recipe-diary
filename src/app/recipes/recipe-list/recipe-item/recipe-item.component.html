@@ -1,0 +1,14 @@
+<div class="card recipe-card">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img [src]="recipe.imagePath" class="card-img-top" alt="{{recipe.name}}">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{recipe.name}}</h5>
+        <p class="card-text">{{recipe.description}}</p>
+        <a [routerLink]="[index]" class="btn btn-primary">View Recipe</a>
+      </div>
+    </div>
+  </div>
+</div>

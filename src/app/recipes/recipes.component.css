@@ -1,0 +1,4 @@
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 100vh;
+}

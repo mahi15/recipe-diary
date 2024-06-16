@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.custom-btn {
+  cursor: pointer !important;
+  color: #ffffff;
+  border: 1.5px solid rgb(116, 62, 0);
+  background: linear-gradient(90deg, rgba(255, 151, 61, 1) 0%, rgba(170, 85, 1, 1) 100%);
+  transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+  background: linear-gradient(90deg, rgba(255, 127, 38, 1) 0%, rgba(140, 70, 0, 1) 100%);
+}
+
+.btn {
+  color: #ffffff !important;
+}
+
+.cancel-btn {
+  cursor: pointer !important;
+  color: #ffffff !important;
+  border: 1.5px solid rgb(116, 62, 0);
+  background: rgb(48, 48, 48) !important;
+  transition: background 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background: rgb(36, 36, 36) !important;
+}

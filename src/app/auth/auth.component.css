@@ -1,0 +1,51 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.background-container {
+  background-image: url('../../assets/images/login-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.custom-card {
+  box-shadow: 0 10px 20px #f3a8a84d,
+    0 6px 6px #fff3;
+background: rgb(235,235,235);
+background: linear-gradient(348deg, rgba(235,235,235,1) 0%, rgba(218,218,218,1) 100%);
+}
+
+.fold {
+
+  position: absolute;
+  top: -10px;
+  left: -18px;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #ffffff;
+  border-bottom: 20px solid #ffbc6a;
+}
+
+.logo {
+  width: 180px;
+  height: 150px;
+}

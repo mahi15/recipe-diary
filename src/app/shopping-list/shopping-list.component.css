@@ -1,0 +1,12 @@
+hr {
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+.list-group-item {
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}

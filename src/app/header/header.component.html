@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg fancy-navbar" *ngIf="isAuthenticated">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/recipes">
+      <img src="../../assets/images/logo.png" alt="logo" class="navbar-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <!-- <li class="nav-item" *ngIf="isAuthenticated">
+          <a class="nav-link fancy-link" routerLink="/profile" routerLinkActive="active">Profile</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link fancy-link" routerLink="/shopping-list" routerLinkActive="active">Shopping List</a>
+        </li>
+        <!-- <li class="nav-item dropdown" *ngIf="isAuthenticated">
+          <a class="nav-link dropdown-toggle fancy-link" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Manage
+          </a>
+          <ul class="dropdown-menu fancy-dropdown" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" (click)="onSaveData()" style="cursor: pointer;">Save Data</a></li>
+            <li><a class="dropdown-item" (click)="onFetchData()" style="cursor: pointer;">Fetch Data</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item" *ngIf="isAuthenticated">
+          <a class="nav-link fancy-link" (click)="onLogout()" style="cursor: pointer;">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
